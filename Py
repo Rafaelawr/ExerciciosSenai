@@ -56,3 +56,23 @@ p3 = float(input("Digite o valor da Prova P3 "))
 
 media = (p1 + p2 + p3)/3
 print("O Valor da média final é : ", media)
+__________________________________________________________________________
+a= 4
+b = 3
+c = a**2 + b**2
+
+hipotenusa = c ** 0.5
+print("O resultado do calculo é:",hipotenusa)
+___________________________________________________________________________
+salario = float(input("Digite seu salario atual: "))
+aumento = float(input("Qual foi a porcentagem de aumento"))
+
+valorSalario = salario + (salario * (aumento/100))
+print(f"O seu salario atualizado é: {valorSalario:.2f}")
+__________________________________________________________________________
+pi = 3.1415
+raio = 5
+altura = 5
+volume = pi * (raio**2) * altura
+print(f"valor{volume:.4f}" )
+
