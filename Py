@@ -13,3 +13,20 @@ print(multiplicar)
 
 subtrair = num1-num2-num3
 print(subtrair)
+_____________________________________________________________________________
+
+'''Crie um programa para efetuar a leitura de um número inteiro e apresentar o resultado
+do quadrado deste número.'''
+
+num = int(input(" Digite um numero: "))
+resultado = num ** 2
+print(resultado)
+
+__________________________________________________________________________________
+
+'''Escreva um programa que leia dois caracteres e imprima-os na tela da seguinte forma: “O
+usuário digitou {caractere1} e {caractere2}!”.'''
+
+nome = input("Digite seu nome: ")
+sobre = input("Digite seu nobrenome: ")
+print("O usuário digitou",nome, "e", sobre)
