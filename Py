@@ -30,3 +30,22 @@ usuário digitou {caractere1} e {caractere2}!”.'''
 nome = input("Digite seu nome: ")
 sobre = input("Digite seu nobrenome: ")
 print("O usuário digitou",nome, "e", sobre)
+________________________________________________________________________
+'''Crie um programa que leia um número inteiro e imprimir seu sucessor e seu antecessor.'''
+
+num = int(input("Digite um numero "))
+ant = num -1
+pos = num +1
+print("O Numero antecessor é:" ,ant ,"O numero sucessor é:",pos)
+_______________________________________________________________________
+'''Crie um programa para entrar com a base a altura de um retângulo e imprimir
+respectivamente o perímetro e a área correspondente.'''
+
+base = float(input("Digite o valor da base do retangulo: "))
+altura = float(input("Digite a altura do retangulo: "))
+
+area = base*altura
+print(area)
+
+perimetro = (altura + base) * 2
+print(perimetro)
