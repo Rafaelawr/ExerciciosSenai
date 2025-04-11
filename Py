@@ -49,3 +49,10 @@ print(area)
 
 perimetro = (altura + base) * 2
 print(perimetro)
+________________________________________________________________________
+p1 = float(input("Digite o valor da Prova P1 "))
+p2 = float(input("Digite o valor da Prova P2 "))
+p3 = float(input("Digite o valor da Prova P3 "))
+
+media = (p1 + p2 + p3)/3
+print("O Valor da média final é : ", media)
